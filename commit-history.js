@@ -3,7 +3,7 @@ const git = simpleGit();
 const { execSync } = require('child_process');
 
 const startDate = new Date('2016-11-18');
-const endDate = new Date('2016-2-12');
+const endDate = new Date('2017-2-12');
 
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
